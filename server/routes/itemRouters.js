@@ -5,6 +5,7 @@ const router = express.Router();
 
 // Routes
 router.get("/Projects", getProjects);
+router.get("/projects", getProjects);
 router.post("/contacts", postContact);
 
 module.exports = router;
