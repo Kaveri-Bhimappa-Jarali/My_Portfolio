@@ -1,4 +1,10 @@
 {
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix client run build",
+    "install:client": "npm --prefix client install",
+    "dev:client": "npm --prefix client run dev"
+  },
   "dependencies": {
     "axios": "^1.12.2",
     "mongoose": "^8.18.1"
